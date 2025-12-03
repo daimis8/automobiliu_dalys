@@ -1,3 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS automobiliu_dalys;
+SET search_path TO automobiliu_dalys, public;
+
 CREATE TABLE klientas (
     klientoID SERIAL PRIMARY KEY,
     vardas VARCHAR(50) NOT NULL,
